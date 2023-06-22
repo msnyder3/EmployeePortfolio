@@ -61,10 +61,11 @@
   }
 
   nav {
-    display: contents;
+    display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--secondary);
     flex-wrap: wrap;
+    position:fixed right;
     border-bottom: 3px solid var(--primary);
     padding: var(--dark);
     margin: var(--dark);
